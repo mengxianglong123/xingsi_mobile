@@ -1,6 +1,6 @@
 <template>
 	<!-- 新闻列表元素 -->
-	<div class="news-item clicks">
+	<div class="news-item clicks" @click="$router.push(`/newsdetail/${news.newsId}`)">
 		<!-- 图片 -->
 		<van-image
 		  fit="cover"
@@ -36,7 +36,7 @@
 <script>
 	export default{
 		name:'NewsItem',
-		props:["news"]
+		props:["news"],
 	}
 </script>
 

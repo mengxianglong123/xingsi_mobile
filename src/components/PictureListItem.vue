@@ -1,5 +1,5 @@
 <template>
-	<div class="pic-item clicks" :style="picBack">
+	<div class="pic-item clicks" :style="picBack" @click="$router.push(`/picdetail/${pic.albumId}`)">
 		<!-- 毛玻璃遮罩层 -->
 		<div class="pic-blur" :style="picBack"></div>
 		
@@ -46,7 +46,7 @@
 			position: absolute;
 			left: 0;
 			top:0;
-			filter: blur(1.5px);
+			filter: blur(1.8px);
 			background-size: cover;
 			background-position: center center;
 			// border-radius: 15px;

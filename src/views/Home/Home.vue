@@ -21,6 +21,9 @@
 		
 		<!-- ******************底部****************** -->
 		<HomeFooter></HomeFooter>
+		
+		
+		
 	</div>
 </template>
 
@@ -50,6 +53,7 @@
 <style scoped lang="less">
 	.logo{
 		width: 60%;
+		height: 80%;
 	}
 	.nav{
 		box-shadow: 1px 1px 1px #888888;

@@ -10,6 +10,10 @@
 		  <van-swipe-item >
 		    <img :src="require('@/assets/banner.jpg')" />
 		  </van-swipe-item>
+		  
+		  <van-swipe-item >
+		    <img :src="require('@/assets/banner.jpg')" />
+		  </van-swipe-item>
 		</van-swipe>
 	</div>
 </template>

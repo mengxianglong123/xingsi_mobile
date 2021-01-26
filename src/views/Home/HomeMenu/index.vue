@@ -1,28 +1,28 @@
 <template>
 	<!-- 首页菜单 -->
 	<div class="home-menu">
-		<div class="menu-item">
+		<div class="menu-item" @click="$router.push('/news')">
 			<span class="menu-icon" 
 			style="background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);">
 				<i class="iconfont icon-xinwen"></i>
 			</span>
 			<span class="menu-text">行思新闻</span>
 		</div>
-		<div class="menu-item">
+		<div class="menu-item" @click="$router.push('/pics')">
 			<span class="menu-icon" 
 			style="background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);">
 				<i class="iconfont icon-xiangce"></i>
 			</span>
 			<span class="menu-text">行思相册</span>
 		</div>
-		<div class="menu-item">
+		<div class="menu-item" @click="$router.push('/toNav')">
 			<span class="menu-icon" 
 			style="background-image: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);">
 				<i class="iconfont icon-faxian"></i>
 			</span>
 			<span class="menu-text">行思导航</span>
 		</div>
-		<div class="menu-item">
+		<div class="menu-item" @click="$router.push('/history')">
 			<span class="menu-icon" 
 			style="background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);">
 				<i class="iconfont icon-lishi"></i>
