@@ -1,13 +1,13 @@
 <template>
   <div id="app">
 	  
-		  <transition :name="transitionName">
+		  <transition mode="out-in" :name="transitionName" >
 			<keep-alive exclude="NewsPage,PicturesPage,HistoryDetail">
 				<router-view class="app-main"></router-view>
 			</keep-alive>
 		  </transition>
 	  
-	 <transition :name="transitionName">
+	 <transition mode="out-in" :name="transitionName" >
 		  
 		  <van-tabbar route v-show='showTabbar' style="z-index: 1000;">
 		  		<van-tabbar-item replace to='/home'>
@@ -56,10 +56,10 @@ export default {
               $route(to, from) {
                   // 有主级到次级
                   if (to.meta.index > from.meta.index) {
-                      this.transitionName = 'slide-left' // 向左滑动
+                      this.transitionName = 'van-slide-left' // 向左滑动
                   } else if (to.meta.index < from.meta.index) {
                       // 由次级到主级
-                      this.transitionName = 'slide-right' // 向右滑动
+                      this.transitionName = 'van-slide-right' // 向右滑动
                   } else {
                       this.transitionName = ''   //同级无过渡效果
                   }

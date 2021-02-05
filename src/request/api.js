@@ -24,7 +24,7 @@ export const GetHis = () => request.get("/history")
 // 获取行思历史详细信息
 export const GetHisDetail = (id) => request.get(`/history/${id}`)
 
-// 商品删除
+// 商品删除(接口示例)
 export const DelGood = (params) => request.post('/cart/delete', params);
 
 

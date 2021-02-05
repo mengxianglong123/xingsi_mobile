@@ -115,7 +115,6 @@ const routes = [
 const router = new VueRouter({
   // 配置路由和组件之间的应用关系
   routes,
-  mode: 'history',
   linkActiveClass: 'active',
   scrollBehavior(to, from, saveTop){
           if (saveTop) {
