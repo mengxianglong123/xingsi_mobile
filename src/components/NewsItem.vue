@@ -2,11 +2,13 @@
 	<!-- 新闻列表元素 -->
 	<div class="news-item clicks" @click="$router.push(`/newsdetail/${news.newsId}`)">
 		<!-- 图片 -->
-		<van-image
-		  fit="cover"
-		  :src="news.newsPictureViewUrl"
-		  class="news-img"
-		>
+		<div class="news-img">
+			<van-image
+			  fit="cover"
+			  :src="news.newsPictureViewUrl"
+			/>
+		</div>
+		
 		</van-image>
 		<span class="news-text">
 			<!-- 标题 -->
@@ -53,6 +55,11 @@
 		align-items: center;
 		.news-img{
 			width: 30%;
+			overflow: hidden;
+			height: 78px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 		.news-text{
 			letter-spacing: 0.5px;
