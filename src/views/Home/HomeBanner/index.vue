@@ -2,17 +2,17 @@
 	<div class="home-banner">
 		<van-swipe :autoplay="3000">
 		  <van-swipe-item >
-		    <img src="http://xsgzs.cn/img/lunbo1.60247e6e.jpg" />
+		    <img src="http://xsbanner.oss-cn-beijing.aliyuncs.com/img/89993-lunbo1.jpg" />
 		  </van-swipe-item>
 		  <van-swipe-item >
-		    <img src="http://xsgzs.cn/img/lunbo2.24225084.jpg" />
+		    <img src="http://xsbanner.oss-cn-beijing.aliyuncs.com/img/68502-lunbo2.jpg" />
 		  </van-swipe-item>
 		  <van-swipe-item >
-		    <img src="http://xsgzs.cn/img/lunbo3.623bbcdb.jpg" />
+		    <img src="http://xsbanner.oss-cn-beijing.aliyuncs.com/img/68502-lunbo2.jpg" />
 		  </van-swipe-item>
 		  
 		  <van-swipe-item >
-		    <img src="http://xsgzs.cn/img/lunbo4.724c8359.jpg" />
+		    <img src="http://xsbanner.oss-cn-beijing.aliyuncs.com/img/27710-lunbo4.jpg" />
 		  </van-swipe-item>
 		</van-swipe>
 	</div>
